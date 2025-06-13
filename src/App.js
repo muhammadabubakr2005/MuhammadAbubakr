@@ -40,7 +40,7 @@ const App = () => {
           // deployedProjectLink="https://wiggles.vercel.app"
            projectImg={CoalGame}
         />
-        <ProjectCard
+        {/* <ProjectCard
           id = "project"
           // className = "odd"
           projectTitle="MedPro -Medical Store App"
@@ -48,7 +48,7 @@ const App = () => {
           projectLink="https://github.com/DevanshSahni/Wiggles"
           // deployedProjectLink="https://wiggles.vercel.app"
            projectImg={MedPro}
-        />
+        /> */}
         <ProjectCard
           id = "project"
           className = "odd"
