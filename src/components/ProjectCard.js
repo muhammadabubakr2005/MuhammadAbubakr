@@ -65,7 +65,6 @@ export default function ProjectCard(props) {
               src={props.projectImg}
               alt="Displaying Project"
               autostart={true}
-              loop={true}
               autoPlay={true}
             />
            
