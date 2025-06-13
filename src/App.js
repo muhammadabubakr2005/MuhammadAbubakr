@@ -13,6 +13,7 @@ import Footer_ from "./components/Footer.js";
 // import WebApp from "./assets/ArtGallery.mp4";
 // import MedPro from "./assets/MedPro.mp4";
 // import VPL from "./assets/VPL.mp4";
+
 const App = () => {
   
   return (
@@ -27,7 +28,7 @@ const App = () => {
           projectTitle="Online Art Gallery"
           projectDesc="A web application for art lovers to explore. The application is developed using ReactJS and NodeJS. The application is integrated with MS-SQL for database management. This App contains a lot of features such as chatbox, notifications, upload and explore arts etc."
           projectLink="https://github.com/DevanshSahni/Wiggles"
-          projectImg={`${process.env.PUBLIC_URL}/ArtGallery.mp4`}
+          projectImg="https://www.youtube.com/watch?v=Bef_TvO6soY"
         />
 
         <ProjectCard
@@ -36,7 +37,7 @@ const App = () => {
           projectTitle="CatchAlpha Game"
           projectDesc="A console based Game developed in Assemly Language 8088 archeitecture. The game is based on the concept of catching the alphabets falling."
           projectLink="https://github.com/DevanshSahni/Wiggles"
-          projectImg={`${process.env.PUBLIC_URL}/coalGame.mp4`}
+          projectImg="https://www.youtube.com/watch?v=OQdDGQIm7YE"
         />
 
         <ProjectCard
@@ -44,7 +45,7 @@ const App = () => {
           projectTitle="MedPro - Medical Store App"
           projectDesc="It is an E-commerce Mobile Application for medical store. The application is developed using React Native and NodeJS. The application is integrated with MongoDB for database management. This App contains a lot of features such as Login/Signup, medicine descriptions, cart, notifications, orders placing, order tracking."
           projectLink="https://github.com/DevanshSahni/Wiggles"
-          projectImg={`${process.env.PUBLIC_URL}/MedPro.mp4`}
+          projectImg="https://www.youtube.com/watch?v=4598bp6CZog"
         />
 
         <ProjectCard
@@ -53,7 +54,7 @@ const App = () => {
           projectTitle="VPL - Visual Programming Language"
           projectDesc="A Visual Programming Language extension developed in React. It is used to convert visual components to HTML code. The language is based on the concept of drag and drop. This App contains a lot of features such as drag and drop, code generation, execution, etc."
           projectLink="https://github.com/DevanshSahni/Wiggles"
-          projectImg={`${process.env.PUBLIC_URL}/VPL.mp4`}
+          projectImg="https://www.youtube.com/watch?v=fJI9KI831IY"
         />
 
         <AboutMe id="about" />
