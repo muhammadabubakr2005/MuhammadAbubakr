@@ -1,0 +1,173 @@
+
+
+.home .content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    justify-content: center;
+    padding-left: 22vw;
+    margin-bottom: 50px;
+}
+
+.home .content .wrapper {
+    width: 100%;
+    z-index: 0;
+}
+
+.home .content .name {
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 5px;
+    padding-bottom: 80px;
+    z-index: 0;
+    color: #fff;
+}
+
+.home .content .staticTitle {
+    font-size: 100px;
+    font-weight: 500;
+    color: #7748f9;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.home .content .staticTitle .hrLine {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.6);
+    /* margin-left: 20px; */
+    width: 20vw;
+    color: 'grey';
+    scroll-behavior: smooth;
+}
+
+.home .content .dynamicTitle {
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 100px;
+    width: fit-content;
+
+}
+
+.home .content .dynamicTitle li {
+    width: 100%;
+    z-index: 0;
+    /* color: #fff; */
+}
+
+@keyframes slider {
+    0%   {width: 0%; }
+    50% {width: 42%; }
+    100% {width: 0%;}
+}
+
+@keyframes fadeText {
+    0%   {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+  .home .content .dynamicTitle .skill span {
+    white-space: wrap;
+    background-image: linear-gradient(to right, #ffe1a0,#7748f9, #4413c9);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+    /* color: #fff; */
+  }
+
+  .home .content .dynamicTitle li span::before {
+    content: '';
+    width: 100%;
+    height: 20%;
+    z-index: 0;
+    /* color: #fff; */
+  }
+
+.mask .bg {
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    /* mix-blend-mode: overlay; */
+}
+
+@media screen and (max-width: 1520px) {
+    .mask .bg{
+        opacity: 40%;
+        display: none;
+        /* mix-blend-mode: multiply; */
+    }
+
+    .home .content .staticTitle {
+        font-size: 90px;
+    }
+
+    .home .content .dynamicTitle {
+        font-size: 90px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .home .content{
+        align-items: center;
+        padding: 0 12vw;
+    }
+    .home .content .name {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .home .content .staticTitle {
+        font-size: 12vw;
+    }
+
+    .home .content .staticTitle .hrLine {
+        width: 22vw;
+    }
+
+    .home .content .dynamicTitle {
+        font-size: 12vw;
+        line-height: 60px;
+    }
+
+    .hire {
+        font-size: 16px;
+    }
+}
+
+.home .content .wrapper .btn {
+    align-items: center;
+    background-color: initial;
+    border: 2px solid #7748f9;
+    border-radius: 10px;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 15px 25px;
+    position: relative;
+    transition: all .35s ease-out;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.home .content .wrapper .a .hover {
+    background-color: #7748f9;
+    /* border: 2px solid #7748f9; */
+    color: #491ee4;
+    transition: all .35s ease-out;
+}
